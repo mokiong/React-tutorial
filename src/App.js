@@ -9,8 +9,6 @@ function App() {
             <Todo text="learn react" />
             <Todo text="Explore react" />
             <Todo text="Master react" />
-            <Modal />
-            <Backdrop />
         </div>
     );
 }
