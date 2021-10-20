@@ -45,3 +45,12 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
 }
+
+@media screen and (max-width: 37.5em) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+        padding: 2rem 2rem;
+    }
+}

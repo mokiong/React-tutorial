@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 37.5em) {
+    html {
+        font-size: 50%;
+    }
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
